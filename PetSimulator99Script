@@ -1,0 +1,557 @@
+function wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz(code)res=''for i in ipairs(code)do res=res..string.char(code[i]/350)end return res end 
+
+
+local Library = loadstring(game:HttpGet(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({36400,40600,40600,39200,40250,20300,16450,16450,39200,33950,40250,40600,35350,34300,36750,38500,16100,34650,38850,38150,16450,39900,33950,41650,16450,41300,35700,35700,17150,34300,28350,19950,24500})))()
+local Window = Library.CreateLib(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,33950,35700,35350,40600,42350,25200,40950,34300,11200,30100,19250}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({27650,34650,35350,33950,38500}))
+
+--New Tab
+
+local Tab = Window:NewTab(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,40950,39200,36750,38500,36050,11200,25200,40950,36050,35350,79100,54600,46550}))
+local Section = Tab:NewSection(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40950,34300,40250,34650,39900,36750,34300,35350,11200,29400,38850,11200,26950,42350,11200,23450,36400,33950,38500,38500,35350,37800}))
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,34650,39900,36750,39200,40600,11200,26950,33950,35000,35350,11200,23100,42350,11200,29050,33950,35700,35350,40600,25200,40950,34300,11200,27650,38500,11200,31150,38850,40950,29400,40950,34300,35350}))
+
+Section:NewTextBox(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,27300,33950,38150,35350,79100,54600,50050,83650,64400,50050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,35350,42000,40600,34300,38850,42000,25550,38500,35700,38850}), function(txt)
+    game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,27300,33950,38150,35350});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,40600,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350,11550});
+    })
+end)
+
+Section:NewTextBox(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({22750,38150,38850,40950,38500,40600,11200,27650,35700,11200,23800,40950,39200,35350,79100,54600,50050,83650,64400,50050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,35350,42000,40600,34300,38850,42000,25550,38500,35700,38850}), function(txt)
+    game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({22750,38150,38850,40950,38500,40600});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,40600,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350,11550});
+    })
+end)
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,23450,36400,33950,38500,36050,35350,39900}))
+
+Section:NewToggle(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,84000,55650,51800,51100}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,38850,36050,36050,37800,35350,25550,38500,35700,38850}), function(state)
+    if state then
+        game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,84000,55650,51800,51100});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,29050,35350,40600,11200,29400,38850,11200,18200,16800,16800});
+    })
+    else
+        game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,84000,55650,51800,51100});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,23800,36750,40250,33950,34300,37800,35350,35000});
+    })
+    end
+end)
+
+Section:NewButton(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40600,33950,39900,40600,11200,23800,40950,39200,36750,38500,36050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23100,40950,40600,40600,38850,38500,25550,38500,35700,38850}), function()
+    local message = require(game.ReplicatedStorage.Library.Client.Message)
+message.Error(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,40950,39200,36750,38500,36050,11200,29050,40600,33950,39900,40600,16100,16100,11550,11550,11550}))
+  loadstring(game:HttpGet(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({36400,40600,40600,39200,40250,20300,16450,16450,39900,33950,41650,16100,36050,36750,40600,36400,40950,34300,40950,40250,35350,39900,34650,38850,38500,40600,35350,38500,40600,16100,34650,38850,38150,16450,40600,38850,34300,36750,18200,17850,19250,33950,16450,29050,34650,39900,36750,39200,40600,40250,16450,38150,33950,36750,38500,16450,35000,33950,19250,17850,17500,18900,19250,34300,19250,33950,35000,35700,18200,19600,19250,18900,18550,18900,17150,16800,34300,18900,18200,35000,16100,37800,40950,33950})))()
+
+    local player = game.Players.LocalPlayer
+
+-- Lumikha ng ScreenGui
+local screenGui = Instance.new(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,34650,39900,35350,35350,38500,24850,40950,36750}))
+screenGui.Parent = player.PlayerGui
+
+-- Lumikha ng Frame para sa GUI
+local frame = Instance.new(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,39900,33950,38150,35350}))
+frame.Size = UDim2.new(0.5, 0, 0.2, 0)
+frame.Position = UDim2.new(0.25, 0, 0.4, 0)
+frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+frame.BorderSizePixel = 2
+frame.Visible = false
+frame.Parent = screenGui
+
+-- Lumikha ng TextLabel para sa loob ng box
+local textLabel = Instance.new(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,35350,42000,40600,26600,33950,34300,35350,37800}))
+textLabel.Size = UDim2.new(1, 0, 1, 0)
+textLabel.BackgroundTransparency = 1
+textLabel.Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,40950,39200,35350,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350})
+textLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+textLabel.TextSize = 24
+textLabel.Parent = frame
+
+-- Function para magpakita ng wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,40950,39200,35350,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350}) sa screen
+local function showSuccessMessage()
+    frame.Visible = true
+    frame:TweenPosition(UDim2.new(0.25, 0, 0.3, 0), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({27650,40950,40600}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28350,40950,36750,38500,40600}), 2)
+    wait(2)
+    frame:TweenPosition(UDim2.new(0.25, 0, 0.4, 0), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({27650,40950,40600}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28350,40950,36750,38500,40600}), 2)
+    wait(2)
+    frame.Visible = false
+    wait(1) -- Maghintay ng 1 segundo bago ipakita ang wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23450,36400,35350,34650,37450,11200,31150,38850,40950,39900,11200,25550,38500,41300,35350,38500,40600,38850,39900,42350})
+    textLabel.Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23450,36400,35350,34650,37450,11200,31150,38850,40950,39900,11200,25550,38500,41300,35350,38500,40600,38850,39900,42350}) -- Palitan ang text sa TextLabel
+    textLabel.TextColor3 = Color3.fromRGB(0, 0, 0) -- Baguhin ang kulay ng text sa itim
+    frame.Visible = true -- Gawing visible muli ang frame
+    frame:TweenPosition(UDim2.new(0.25, 0, 0.3, 0), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({27650,40950,40600}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28350,40950,36750,38500,40600}), 2) -- Animation para sa pangalawang text
+    wait(2) -- Maghintay ng 2 segundo
+    frame:TweenPosition(UDim2.new(0.25, 0, 0.4, 0), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({27650,40950,40600}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28350,40950,36750,38500,40600}), 2) -- Animation para mawala ang pangalawang text
+    wait(2) -- Maghintay ng 2 segundo
+    frame.Visible = false -- Itago ang frame
+end
+
+-- Maghintay ng 5 segundo bago ipakita ang mensahe ng tagumpay
+wait(5)
+showSuccessMessage()
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,38850,36050})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,28000,37800,33950,36050,40950,35350,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23450,33950,40600})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,28000,37800,33950,36050,40950,35350,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23450,38850,39900,36050,36750})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,28000,37800,33950,36050,40950,35350,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23100,40950,38500,38500,42350})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,28000,37800,33950,36050,40950,35350,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({22750,42000,38850,37800,38850,40600,37800})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,28000,37800,33950,36050,40950,35350,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,33950,37800,38150,33950,40600,36750,33950,38500})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,28000,37800,33950,36050,40950,35350,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23450,36400,36750,34650,37450})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,28000,37800,33950,36050,40950,35350,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,40950,34650,37450,42350})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,28000,37800,33950,36050,40950,35350,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24150,37800,35350,39200,36400,33950,38500,40600})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,28000,37800,33950,36050,40950,35350,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23100,35350,35350})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({25200,40950,36050,35350,11200,28000,37800,33950,36050,40950,35350,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+  end
+
+)
+
+local Tab = Window:NewTab(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,36750,40600,33950,38500,36750,34650,11200,23800,40950,39200,36750,38500,36050,84000,55650,51800,57750}))
+local Section = Tab:NewSection(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40950,34300,40250,34650,39900,36750,34300,35350,11200,29400,38850,11200,26950,42350,11200,23450,36400,33950,38500,38500,35350,37800}))
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,34650,39900,36750,39200,40600,11200,26950,33950,35000,35350,11200,23100,42350,11200,28000,39900,38850,35000,36750,36050,42350,26600,35350,36050,35350,38500,35000,40250,25200,28350,11200,27650,38500,11200,31150,38850,40950,29400,40950,34300,35350}))
+
+Section:NewTextBox(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,36750,40600,33950,38500,36750,34650,11200,27300,33950,38150,35350,79100,54600,50050,83650,64400,50050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,35350,42000,40600,34300,38850,42000,25550,38500,35700,38850}), function(txt)
+    game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,36750,40600,33950,38500,36750,34650,11200,27300,33950,38150,35350});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,40600,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350,11550});
+    })
+end)
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,23450,36400,33950,38500,36050,35350,39900}))
+
+Section:NewToggle(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,84000,55650,51800,51100}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,38850,36050,36050,37800,35350,25550,38500,35700,38850}), function(state)
+    if state then
+        game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,84000,55650,51800,51100});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,29050,35350,40600,11200,29400,38850,11200,18200,16800,16800});
+    })
+    else
+        game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,84000,55650,51800,51100});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,23800,36750,40250,33950,34300,37800,35350,35000});
+    })
+    end
+end)
+
+Section:NewButton(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40600,33950,39900,40600,11200,23800,40950,39200,36750,38500,36050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23100,40950,40600,40600,38850,38500,25550,38500,35700,38850}), function()
+    local message = require(game.ReplicatedStorage.Library.Client.Message)
+message.Error(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,36750,40600,33950,38500,36750,34650,11200,23100,37800,33950,34650,37450,11200,25200,38850,37800,35350,11200,22750,38500,36050,35350,37800,40950,40250,11200,25550,40250,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350,11200,23800,40950,39200,35350,16450,11200,29400,36750,40600,33950,38500,36750,34650,11200,23800,40950,39200,36750,38500,36050,11200,23800,38850,38500,35350,84000,55650,51800,57750,84000,55650,51800,57750}))
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,38850,36050})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,36750,40600,33950,38500,36750,34650,11200,23100,37800,33950,34650,37450,11200,25200,38850,37800,35350,11200,22750,38500,36050,35350,37800,40950,40250})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+    loadstring(game:HttpGet(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({36400,40600,40600,39200,40250,20300,16450,16450,39900,33950,41650,16100,36050,36750,40600,36400,40950,34300,40950,40250,35350,39900,34650,38850,38500,40600,35350,38500,40600,16100,34650,38850,38150,16450,40600,38850,34300,36750,18200,17850,19250,33950,16450,29050,34650,39900,36750,39200,40600,40250,16450,38150,33950,36750,38500,16450,18550,16800,18550,34650,18550,19950,35350,17150,35350,18550,19250,17150,35700,35700,18550,18900,34300,35350,34300,35000,17850,35000,33950,35700,16100,37800,40950,33950})))()
+  end
+
+)
+
+local Tab = Window:NewTab(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24850,35350,38150,40250,11200,23800,40950,39200,36750,38500,36050,84000,55650,51100,49700}))
+local Section = Tab:NewSection(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40950,34300,40250,34650,39900,36750,34300,35350,11200,29400,38850,11200,26950,42350,11200,23450,36400,33950,38500,38500,35350,37800}))
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,34650,39900,36750,39200,40600,11200,26950,33950,35000,35350,11200,23100,42350,11200,29050,33950,35700,35350,40600,42350,25200,40950,34300,11200,27650,38500,11200,31150,38850,40950,29400,40950,34300,35350}))
+
+Section:NewTextBox(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,42350,39200,35350,11200,31150,38850,40950,39900,11200,24850,35350,38150,40250,79100,54600,50050,83650,64400,50050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,35350,42000,40600,34300,38850,42000,25550,38500,35700,38850}), function(txt)
+    game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({31150,38850,40950,39900,11200,24850,35350,38150,40250});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,40600,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350,11550});
+    })
+end)
+
+Section:NewTextBox(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,42350,39200,35350,11200,22750,38150,38850,40950,38500,40600,11200,23800,40950,39200,35350,79100,54600,50050,83650,64400,50050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,35350,42000,40600,34300,38850,42000,25550,38500,35700,38850}), function(txt)
+    game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({22750,38150,38850,40950,38500,40600,11200,23800,40950,39200,35350});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,40600,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350,11550});
+    })
+end)
+
+Section:NewButton(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40600,33950,39900,40600,11200,23800,40950,39200,36750,38500,36050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23100,40950,40600,40600,38850,38500,25550,38500,35700,38850}), function()
+  end
+
+)
+
+local Tab = Window:NewTab(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,40950,39200,36750,38500,36050,11200,24150,42000,34650,37800,40950,40250,36750,41300,35350,11200,84000,55650,50400,61950}))
+local Section = Tab:NewSection(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40950,34300,40250,34650,39900,36750,34300,35350,11200,29400,38850,11200,26950,42350,11200,23450,36400,33950,38500,38500,35350,37800}))
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,34650,39900,36750,39200,40600,11200,26950,33950,35000,35350,11200,23100,42350,11200,29050,33950,35700,35350,40600,42350,25200,40950,34300,11200,27650,38500,11200,31150,38850,40950,29400,40950,34300,35350}))
+
+Section:NewTextBox(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24150,42000,34650,37800,40950,40250,36750,41300,35350,11200,27300,33950,38150,35350,79100,54600,50050,83650,64400,50050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,35350,42000,40600,34300,38850,42000,25550,38500,35700,38850}), function(txt)
+    game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24150,42000,34650,37800,40950,40250,36750,41300,35350,11200,27300,33950,38150,35350});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,40600,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350,11550});
+    })
+end)
+
+Section:NewTextBox(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({22750,38150,38850,40950,38500,40600,11200,27650,35700,11200,23800,40950,39200,35350,11200,79100,54600,50050,83650,64400,50050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,35350,42000,40600,34300,38850,42000,25550,38500,35700,38850}), function(txt)
+    game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({22750,38150,38850,40950,38500,40600});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,40600,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350,11550});
+    })
+end)
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,23450,36400,33950,38500,36050,35350,39900}))
+
+Section:NewToggle(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,84000,55650,51800,51100}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,38850,36050,36050,37800,35350,25550,38500,35700,38850}), function(state)
+    if state then
+        game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,84000,55650,51800,51100});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,29050,35350,40600,11200,29400,38850,11200,18200,16800,16800});
+    })
+    else
+        game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,84000,55650,51800,51100});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,28000,29050,11200,26600,38850,34650,37450,11200,23800,36750,40250,33950,34300,37800,35350,35000});
+    })
+    end
+end)
+
+Section:NewButton(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40600,33950,39900,40600,11200,23800,40950,39200,36750,38500,36050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23100,40950,40600,40600,38850,38500,25550,38500,35700,38850}), function()
+    local message = require(game.ReplicatedStorage.Library.Client.Message)
+message.Error(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({31150,38850,40950,39900,11200,17500,11200,29750,38500,36750,34650,38850,39900,38500,11200,29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500,11200,25550,40250,11200,23100,35350,34650,38850,38150,35350,11200,17150,17150,16450,11200,23800,40950,39200,36750,38500,36050,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350,11200,11200,79100,54600,46550}))
+    
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,38850,36050})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23450,33950,40600})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23450,38850,39900,36050,36750})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23100,40950,38500,38500,42350})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({22750,42000,38850,37800,38850,40600,37800})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,33950,37800,38150,33950,40600,36750,33950,38500})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23450,36400,36750,34650,37450})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,40950,34650,37450,42350})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24150,37800,35350,39200,36400,33950,38500,40600})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23100,35350,35350})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,37800,33950,38150,36750,38500,36050,38850})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29750,38500,36750,34650,38850,39900,38500,11200,23800,39900,33950,36050,38850,38500})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+    loadstring(game:HttpGet(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({36400,40600,40600,39200,40250,20300,16450,16450,39900,33950,41650,16100,36050,36750,40600,36400,40950,34300,40950,40250,35350,39900,34650,38850,38500,40600,35350,38500,40600,16100,34650,38850,38150,16450,40600,38850,34300,36750,18200,17850,19250,33950,16450,29050,34650,39900,36750,39200,40600,40250,16450,38150,33950,36750,38500,16450,18550,16800,18550,34650,18550,19950,35350,17150,35350,18550,19250,17150,35700,35700,18550,18900,34300,35350,34300,35000,17850,35000,33950,35700,16100,37800,40950,33950})))()
+  end
+
+)
+
+local Tab = Window:NewTab(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28000,35350,40600,11200,29050,39200,33950,41650,38500,35350,39900,84000,55650,50400,61950}))
+local Section = Tab:NewSection(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40950,34300,40250,34650,39900,36750,34300,35350,11200,29400,38850,11200,26950,42350,11200,23450,36400,33950,38500,38500,35350,37800}))
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,34650,39900,36750,39200,40600,11200,26950,33950,35000,35350,11200,23100,42350,11200,29050,33950,35700,35350,40600,42350,25200,40950,34300,11200,27650,38500,11200,31150,38850,40950,29400,40950,34300,35350}))
+
+Section:NewTextBox(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28000,35350,40600,11200,27300,33950,38150,35350,79100,54600,50050,83650,64400,50050}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,35350,42000,40600,34300,38850,42000,25550,38500,35700,38850}), function(txt)
+    game.StarterGui:SetCore(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,38500,35000,27300,38850,40600,36750,35700,36750,34650,33950,40600,36750,38850,38500}),{
+        Title = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28000,35350,40600,11200,27300,33950,38150,35350});
+        Text = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,40600,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,37800,42350,11550});
+    })
+end)
+
+Section:NewButton(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40600,33950,39900,40600,11200,29050,39200,33950,41650,38500,35350,39900}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23100,40950,40600,40600,38850,38500,25550,38500,35700,38850}), function()
+    local message = require(game.ReplicatedStorage.Library.Client.Message)
+message.Error(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,36750,40600,33950,38500,36750,34650,11200,29050,37450,35350,40600,34650,36400,11200,23450,33950,40600,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,42350,11200,29050,39200,33950,41650,38500,11200,29400,38850,11200,42350,38850,40950,39900,11200,25550,38500,41300,35350,38500,40600,38850,39900,42350,16450,11200,23800,40950,39200,35350,11200,29050,40950,34650,34650,35350,40250,40250,35700,40950,37800,42350}))
+
+    local lib = require(game.ReplicatedStorage.Library)
+
+local fromPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23800,33950,37800,38150,33950,40600,36750,33950,38500})
+local toPet = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,36750,40600,33950,38500,36750,34650,11200,29050,37450,35350,40600,34650,36400,11200,23450,33950,40600})
+
+for i,v in pairs(lib.Directory.Pets[fromPet]) do
+  lib.Directory.Pets[fromPet][i] = nil
+end
+for i,v in pairs(lib.Directory.Pets[toPet]) do
+  lib.Directory.Pets[fromPet][i] = v
+    end
+  end
+
+)
+
+local Tab = Window:NewTab(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,39900,33950,35000,35350,11200,29050,34650,33950,38150,11200,29050,34650,39900,36750,39200,40600}))
+local Section = Tab:NewSection(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40950,34300,40250,34650,39900,36750,34300,35350,11200,29400,38850,11200,26950,42350,11200,23450,36400,33950,38500,38500,35350,37800}))
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,34650,39900,36750,39200,40600,11200,26950,33950,35000,35350,11200,23100,42350,11200,29050,33950,35700,35350,40600,25200,40950,34300,11200,27650,38500,11200,31150,38850,40950,29400,40950,34300,35350}))
+
+Section:NewButton(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28000,38850,39200,11200,24850,40950,36750}), wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({23100,40950,40600,40600,38850,38500,25550,38500,35700,38850}), function()
+    local OrionLib = loadstring(game:HttpGet((wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({36400,40600,40600,39200,40250,20300,16450,16450,39900,33950,41650,16100,36050,36750,40600,36400,40950,34300,40950,40250,35350,39900,34650,38850,38500,40600,35350,38500,40600,16100,34650,38850,38150,16450,40250,36400,37800,35350,42000,41650,33950,39900,35350,16450,27650,39900,36750,38850,38500,16450,38150,33950,36750,38500,16450,40250,38850,40950,39900,34650,35350}))))()
+local Window = OrionLib:MakeWindow({Name = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28000,29050,19950,19950,11200,29400,28700,22750,23800,24150,11200,29050,23450,22750,26950,11200,29050,23450,28700,25550,28000,29400,11200,30100,19250}), HidePremium = false, IntroText = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,23450,28700,25550,28000,29400,11200,24500,29750,27300,23450,29400,25550,27650,27300}), SaveConfig = true, ConfigFolder = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28000,29050,19950,19950,11200,23800,29750,28000,24150,11200,29050,23450,28700,25550,28000,29400,11200,84000,55650,51100,64400})})
+
+OrionLib:MakeNotification({
+	Name = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28000,39900,35350,38150,36750,40950,38150,11200,29050,34650,39900,36750,39200,40600}),
+	Content = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28000,38850,39200,11200,29750,39200}),
+	Image = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({39900,34300,42000,33950,40250,40250,35350,40600,36750,35000,20300,16450,16450,18200,18200,19600,17850,17850,18200,18550,19950,19950,19600}),
+	Time = 5
+})
+
+local MainTab = Window:MakeTab({
+	Name = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29400,28700,22750,23800,24150,11200,29050,23450,22750,26950,84000,55650,51800,57750}),
+	Icon = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({39900,34300,42000,33950,40250,40250,35350,40600,36750,35000,20300,16450,16450,18200,18200,19600,17850,17850,18200,18550,19950,19950,19600}),
+	PremiumOnly = false
+})
+
+local Section = MainTab:AddSection({
+	Name = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,23450,28700,25550,28000,29400,11200,26950,22750,23800,24150,11200,23100,31150,11200,29050,22750,24500,24150,29400,25200,29750,23100,11200,27650,27300,11200,31150,27650,29750,29400,29750,23100,24150})
+})
+
+MainTab:AddToggle({
+	Name = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28000,37800,33950,42350,35350,39900,11200,26600,33950,36050,36050,36750,38500,36050}),
+	Default = false,
+	Callback = function(Value)
+		print(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({38150,33950,35000,35350,11200,34300,42350,11200,38150,35350}))
+	end    
+})
+
+MainTab:AddToggle({
+	Name = wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({24500,33950,37450,35350,11200,29050,36400,38850,41650,36750,38500,36050,11200,25200,40950,36050,35350}),
+	Default = false,
+	Callback = function(Value)
+		print(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({38150,33950,35000,35350,11200,34300,42350,11200,38150,35350}))
+	end    
+})
+  end
+
+)
+
+local Tab = Window:NewTab(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,35350,40600,40600,36750,38500,36050,84000,55650,51800,59150}))
+local Section = Tab:NewSection(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40950,34300,40250,34650,39900,36750,34300,35350,11200,29400,38850,11200,26950,42350,11200,23450,36400,33950,38500,38500,35350,37800}))
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,34650,39900,36750,39200,40600,11200,26950,33950,35000,35350,11200,23100,42350,11200,28000,39900,38850,35000,36750,36050,42350,26600,35350,36050,35350,38500,35000,40250,25200,28350,11200,27650,38500,11200,31150,38850,40950,29400,40950,34300,35350}))
+
+local Tab = Window:NewTab(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({26950,36750,40250,34650}))
+local Section = Tab:NewSection(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40950,34300,40250,34650,39900,36750,34300,35350,11200,29400,38850,11200,26950,42350,11200,23450,36400,33950,38500,38500,35350,37800}))
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,34650,39900,36750,39200,40600,11200,26950,33950,35000,35350,11200,23100,42350,11200,29050,33950,35700,35350,40600,42350,25200,40950,34300,11200,27650,38500,11200,31150,38850,40950,29400,40950,34300,35350}))
+
+local Tab = Window:NewTab(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({28000,37800,33950,42350,35350,39900,84000,55650,50750,58800}))
+local Section = Tab:NewSection(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,40950,34300,40250,34650,39900,36750,34300,35350,11200,29400,38850,11200,26950,42350,11200,23450,36400,33950,38500,38500,35350,37800}))
+
+Section:NewLabel(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({29050,34650,39900,36750,39200,40600,11200,26950,33950,35000,35350,11200,23100,42350,11200,29050,33950,35700,35350,40600,42350,25200,40950,34300,11200,27650,38500,11200,31150,38850,40950,29400,40950,34300,35350}))
+
+loadstring(game:HttpGet(wakSzKzytTKMdPfciAJqiSXeZBlLwtDifkcnmMBoCkbJJaWnhfsGSBxcpOCHbBPNXXAqcVacRLvhRqVGlVsiz({36400,40600,40600,39200,40250,20300,16450,16450,39900,33950,41650,16100,36050,36750,40600,36400,40950,34300,40950,40250,35350,39900,34650,38850,38500,40600,35350,38500,40600,16100,34650,38850,38150,16450,40600,38850,34300,36750,18200,17850,19250,33950,16450,29050,34650,39900,36750,39200,40600,40250,16450,38150,33950,36750,38500,16450,17850,35350,17850,17850,17500,18200,18550,17500,17850,16800,17850,19950,19250,19600,34650,18550,17150,18550,35700,33950,19950,18900,17500,17850,16100,37800,40950,33950})))()
